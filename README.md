@@ -177,6 +177,7 @@ echo "token: $TOKEN" >> /etc/rancher/rke2/config.yaml
 
 # enable and start
 systemctl enable --now rke2-agent.service
+systemctl start rke2-agent.service
 ```
 
 What should this look like:
